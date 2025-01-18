@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="server">
+      <UniqueIdentifier>{6c232401-f62c-4ee5-a0c2-78ccdf0b7649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{0a31050e-8e7a-434e-b075-2d18a0a8b76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qcommon">
+      <UniqueIdentifier>{736cdf34-fe8a-4b47-a8b3-c0f3ebb4a8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{94ef1a92-9642-4a10-ba8c-e677b6f87d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{c5729dba-5508-4892-b83c-392b8a0a8d60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="server\server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="client\adivtab.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\anorms.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\asm_i386.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\block8.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\block16.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\cdaudio.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\console.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\input.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\keys.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\qmenu.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\ref.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\screen.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\snd_loc.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\sound.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\vid.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\crc.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\qcommon.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\qfiles.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\conproc.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\winquake.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\q_shared.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="server\sv_ccmds.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_ents.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_game.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_init.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_main.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_send.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_user.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_world.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_cin.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_ents.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_fx.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_input.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_inv.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_main.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_newfx.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_parse.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_pred.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_scrn.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_tent.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_view.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\console.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\keys.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\menu.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\qmenu.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_dma.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_mem.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_mix.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\x86.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cmd.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cmodel.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\common.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\crc.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cvar.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\files.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\md4.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\net_chan.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\pmove.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\cd_win.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\conproc.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\in_win.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\net_wins.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\snd_win.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\sys_win.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\vid_dll.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\vid_menu.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\q_shwin.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\q_shared.c">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\m_flash.c">
+      <Filter>shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="win32\q2.ico">
+      <Filter>win32</Filter>
+    </Image>
+    <Image Include="win32\qe3.ico">
+      <Filter>win32</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win32\q2.aps">
+      <Filter>win32</Filter>
+    </None>
+  </ItemGroup>
+</Project>
